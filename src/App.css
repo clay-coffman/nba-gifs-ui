@@ -65,6 +65,23 @@
   margin-left: 10px;
 }
 
+.button-group button {
+  padding: 10px 24px;
+  float: inline-start;
+}
+
+.like-button {
+  background: #60c657;
+  background-size: 200% 200%;
+  margin: 10px;
+}
+
+.dislike-button {
+  background: #b22222;
+  background-size: 200% 200%;
+  margin: 10px;
+}
+
 .footer-container {
   display: flex;
   justify-content: center;
@@ -85,6 +102,13 @@
   color: white;
   font-size: 16px;
   font-weight: bold;
+}
+
+.caption-text {
+  color: white;
+  font-size: 14px;
+  padding: 4px;
+  justify-content: center;
 }
 
 .gif-grid {
@@ -111,7 +135,7 @@
   object-fit: cover;
 }
 
-.connected-container input[type='text'] {
+.connected-container input[type="text"] {
   display: inline-block;
   color: white;
   padding: 10px;
